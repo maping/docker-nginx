@@ -9,8 +9,8 @@ trigger:
     - master
   paths:
     exclude:
-    - '**/README.md'
-    - '**/azure-pipelines.yml'
+    - '/README.md'
+    - '/azure-pipelines.yml'
 
 pool:
   vmImage: 'ubuntu-latest'
