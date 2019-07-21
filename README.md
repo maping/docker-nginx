@@ -1,6 +1,6 @@
 [![Build Status](https://maping930883.visualstudio.com/docker-nginx/_apis/build/status/maping.docker-nginx?branchName=master)](https://maping930883.visualstudio.com/docker-nginx/_build/latest?definitionId=15&branchName=master)
 
-# 实验说明
+# 实验说明2
 修改源代码并提交之后，触发 Azure Pipeline CI 过程，从 Docker Hub 拉取镜像，启动容器，展示新的应用。
 
 ## 1. 创建镜像
