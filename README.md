@@ -24,14 +24,15 @@ CONTAINER ID        IMAGE                           COMMAND                  CRE
 
 ## 4. 与 Azure Pipeline 集成
 选择 Settings -> Intgretions & Services，点击 Azure Pipelines 旁边的 Configure 按钮，
+拉到下面，Repository access -> Only select repositories，搜索 docker-nginx，回车后，会自动转到 Azure DevOps 登陆界面。
 
 ![image](./images/1.png)
 
-拉到下面，Repository access -> Only select repositories，搜索 docker-nginx，回车后，会自动转到 Azure DevOps 登陆界面。
+登陆后，选择 Organization，
 
 ![image](./images/2.png)
 
-登陆后，选择 Organization，选择创建 Create a new project，点击 Continue，将为你创建一个 Azure DevOps Project。
+选择创建 Create a new project，点击 Continue，将为你创建一个 Azure DevOps Project。
 
 ![image](./images/3.png)
 
