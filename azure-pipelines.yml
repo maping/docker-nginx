@@ -30,3 +30,4 @@ steps:
     repository: 'maping930883/nginx_static_web'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+    tags: 
